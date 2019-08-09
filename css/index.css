@@ -144,3 +144,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.home-bar{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+    width:799px;
+}
+
+.home-bar a{
+    margin-top:25px;
+    text-decoration: none;
+    color:black;
+}
+
+.jumbo{
+     margin-top:40px;
+}
+
+.top-content{
+    margin-top: 20px;
+}
+
+/* About Pages*/
+
+.jumbo-about{
+    margin-top: 40px;
+
+}
+
+.about{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.sun{
+    display:flex;
+    flex-wrap: wrap; 
+    /* margin-top:30px; */
+}
+
+.power{
+    margin-top:30px;
+    width:390px;
+    margin-right:10px;
+    padding-bottom:15px;
+    border-bottom: 1px dashed black;
+}
+
+.power h2{
+    margin-top: 10px;
+}
+
+.learn-more{
+    padding:10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    margin: 10px 0px;
+}
+
+.lets{
+    margin-top:60px;
+    margin-bottom: 60px;
+}
