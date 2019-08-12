@@ -112,6 +112,49 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background:teal;
+}
+.middle-content .boxes .box2 {
+    background:gold;
+}
+.middle-content .boxes .box3 {
+    background:cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background:coral;
+}
+.middle-content .boxes .box5 {
+    background:crimson;
+}
+.middle-content .boxes .box6 {
+    background:forestgreen;
+}
+.middle-content .boxes .box7 {
+    background:darkorchid;
+}
+.middle-content .boxes .box8 {
+    background:hotpink;
+}
+.middle-content .boxes .box9 {
+    background:indigo;
+}
+.middle-content .boxes .box10 {
+    background:dodgerblue;
+}
+
+/* [ ] box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue` */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +186,70 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.home-bar{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+    width:799px;
+}
+
+.home-bar a{
+    margin-top:25px;
+    text-decoration: none;
+    color:black;
+}
+
+.jumbo{
+     margin-top:40px;
+}
+
+.top-content{
+    margin-top: 20px;
+}
+
+/* About Pages*/
+
+.jumbo-about{
+    margin-top: 40px;
+
+}
+
+.about{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.sun{
+    display:flex;
+    flex-wrap: wrap; 
+    /* margin-top:30px; */
+}
+
+.power{
+    margin-top:30px;
+    width:390px;
+    margin-right:10px;
+    padding-bottom:15px;
+    border-bottom: 1px dashed black;
+}
+
+.power h2{
+    margin-top: 10px;
+}
+
+.learn-more{
+    padding:10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    margin: 10px 0px;
+}
+
+.lets{
+    margin-top:60px;
+    margin-bottom: 60px;
 }
